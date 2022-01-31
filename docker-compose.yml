@@ -17,8 +17,6 @@ services:
   nextcloud:
     image: nextcloud
     container_name: nextcloud
-    ports:
-      - 8080:80
     links:
       - db
     volumes:
